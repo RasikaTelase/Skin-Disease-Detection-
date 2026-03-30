@@ -1,0 +1,94 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Flask
+instance/
+.webassets-cache
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Environment
+.env
+.env.local
+.DS_Store
+Thumbs.db
+
+# Uploads (keep folder, ignore contents)
+# web_app/static/uploads/*
+# !web_app/static/uploads/.gitkeep
+
+# Logs
+*.log
+logs/
+
+# Data (training data not needed for deployment)
+data/raw/
+data/split_data/
+data/IMG_CLASSES/
+training_results/
+notebooks/
+
+# Image files (large datasets)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.tiff
+*.tif
+
+Model files - Allow the main trained model, ignore others
+The trained model is needed for deployment
+*.h5 - commented out to allow model upload
+*.hdf5 - commented out to allow model upload
+*.pkl
+*.pickle
+*.pth
+*.pt
+*.onnx
+*.pb
+*.tflite
+*.weights
+models/ - commented out to allow models folder
+saved_models/ - commented out to allow saved models
+
+# Virtual Environment
+# .venv-1/
+venv-1/
+
+

@@ -1,0 +1,453 @@
+{
+  "1. Eczema 1677": {
+    "name": "Eczema",
+    "description": "Eczema, also known as dermatitis, is a chronic inflammatory skin condition that affects millions worldwide. It's characterized by intense itching, inflammation, and skin barrier dysfunction. Eczema can develop at any age but is most common in children. The condition results from a complex interplay of genetic predisposition, immune system dysfunction, and environmental factors. People with eczema have a defective skin barrier that allows moisture to escape and irritants to enter. This leads to intense itching, which can be worse at night and significantly impact quality of life. While eczema is not contagious, it often runs in families with a history of allergies, asthma, or hay fever. The condition tends to flare during times of stress, exposure to irritants, or changes in weather.",
+    "symptoms": [
+      "Intense itching, especially at night",
+      "Red, inflamed skin",
+      "Small raised bumps that may leak fluid when scratched",
+      "Cracked, swollen, sensitive skin",
+      "Raw, swollen skin from scratching",
+      "Dry skin"
+    ],
+    "causes": [
+      "Genetic predisposition",
+      "Immune system dysfunction",
+      "Environmental triggers (allergens, irritants)",
+      "Stress",
+      "Extreme temperatures",
+      "Harsh soaps or detergents"
+    ],
+    "treatment": [
+      "Moisturize regularly with fragrance-free creams",
+      "Use gentle, fragrance-free cleansers",
+      "Apply topical corticosteroids",
+      "Take antihistamines for itching",
+      "Avoid known triggers",
+      "Phototherapy in severe cases"
+    ],
+    "prevention": [
+      "Keep skin well-moisturized",
+      "Use gentle skincare products",
+      "Avoid known triggers",
+      "Manage stress",
+      "Wear soft, breathable clothing",
+      "Maintain healthy humidity levels"
+    ],
+    "regimens": [
+      "Daily moisturizing with emollient cream",
+      "Use mild soap substitute twice daily",
+      "Apply topical corticosteroid as prescribed",
+      "Take oral antihistamines if needed",
+      "Weekly moisturizing therapy with occlusion",
+      "Avoid irritants and allergen triggers"
+    ]
+  },
+  "2. Melanoma 15.75k": {
+    "name": "Melanoma",
+    "description": "Melanoma is the most aggressive and life-threatening form of skin cancer, accounting for the majority of skin cancer deaths despite representing only a small percentage of all skin cancers. It originates from melanocytes, the cells responsible for producing melanin (skin pigment). Melanoma can develop anywhere on the body, including areas not typically exposed to the sun. The disease has the potential to metastasize (spread) to lymph nodes, lungs, brain, and other organs if not detected and treated early. Early detection through regular skin examinations significantly improves treatment outcomes and survival rates. Risk factors include a personal or family history of melanoma, fair skin, numerous moles, severe sunburns during childhood, and exposure to UV radiation from sun or tanning beds. Unlike other skin cancers, melanoma can develop from normal-appearing skin or existing moles.",
+    "symptoms": [
+      "Asymmetrical moles or spots",
+      "Irregular borders on moles",
+      "Multiple colors in one mole (brown, black, tan, red)",
+      "Moles larger than 6mm diameter",
+      "Moles that change in appearance",
+      "Bleeding or oozing moles",
+      "Itching or tenderness in moles"
+    ],
+    "causes": [
+      "Excessive sun exposure (UV radiation)",
+      "Severe sunburns during childhood",
+      "Family history of melanoma",
+      "Fair skin and light hair",
+      "Many moles or atypical moles",
+      "Weakened immune system"
+    ],
+    "treatment": [
+      "Surgical excision of the tumor",
+      "Mohs micrographic surgery for precision",
+      "Immunotherapy (checkpoint inhibitors)",
+      "Targeted therapy for specific mutations",
+      "Chemotherapy",
+      "Radiation therapy",
+      "Lymph node removal if spread occurs"
+    ],
+    "prevention": [
+      "Use broad-spectrum SPF 30+ sunscreen daily",
+      "Avoid sun exposure 10am-4pm",
+      "Wear protective clothing and hats",
+      "Avoid tanning beds",
+      "Check moles regularly for changes",
+      "Get annual skin checks from dermatologist"
+    ],
+    "regimens": [
+      "Immediate surgical evaluation and staging",
+      "Monthly self-examination of skin",
+      "Quarterly dermatology appointments",
+      "Annual full-body skin examination",
+      "Strict sun protection protocol",
+      "Imaging studies as recommended by oncologist"
+    ]
+  },
+  "3. Atopic Dermatitis - 1.25k": {
+    "name": "Atopic Dermatitis",
+    "description": "Atopic dermatitis (AD), commonly referred to as eczema, is a chronic inflammatory skin disorder that profoundly affects quality of life. It's characterized by severe itching, dry and sensitive skin, and recurrent infections. AD is part of the 'atopic triad' along with asthma and allergic rhinitis, indicating a genetic predisposition to allergic reactions. The condition is more prevalent in children, with onset typically before age 5, though it can develop or persist into adulthood. AD results from a combination of genetic factors and environmental triggers. People with atopic dermatitis have a defective skin barrier with reduced levels of ceramides and other lipids, leading to increased transepidermal water loss. The intense itching can be debilitating, disrupting sleep and daily activities. Severe scratching can lead to secondary bacterial infections, further complicating the condition. Environmental factors like stress, allergens, irritants, and climate changes can trigger or worsen flares.",
+    "symptoms": [
+      "Intense itching, worse at night",
+      "Red or brownish patches",
+      "Small, raised bumps that may leak fluid",
+      "Cracked, dry, sensitive skin",
+      "Swelling and tenderness",
+      "Raw, swollen skin from scratching",
+      "Skin infections"
+    ],
+    "causes": [
+      "Genetic factors and family history",
+      "Impaired skin barrier function",
+      "Immune system dysregulation",
+      "Environmental triggers",
+      "Allergens and irritants",
+      "Stress"
+    ],
+    "treatment": [
+      "Regular moisturizing with emollients",
+      "Topical corticosteroids or calcineurin inhibitors",
+      "Antihistamines for itching",
+      "Topical PDE4 inhibitors",
+      "Biologic medications (dupilumab)",
+      "Phototherapy",
+      "Antibiotics if infected"
+    ],
+    "prevention": [
+      "Keep skin well-moisturized",
+      "Use fragrance-free products",
+      "Avoid known triggers",
+      "Bathe with lukewarm water",
+      "Use mild, gentle cleansers",
+      "Manage stress levels"
+    ],
+    "regimens": [
+      "Daily emollient and moisturizer application",
+      "Twice daily topical corticosteroid use",
+      "Weekly phototherapy sessions if severe",
+      "Monthly dermatology follow-ups",
+      "Trigger avoidance counseling",
+      "Stress management and lifestyle modification"
+    ]
+  },
+  "4. Basal Cell Carcinoma (BCC) 3323": {
+    "name": "Basal Cell Carcinoma",
+    "description": "Basal Cell Carcinoma (BCC) is the most frequently diagnosed form of skin cancer, accounting for approximately 80% of all non-melanoma skin cancers. BCC originates from basal cells located in the innermost layer of the epidermis. It typically grows slowly and is generally considered low-risk, rarely metastasizing to distant sites. However, if left untreated, BCC can invade deeper layers of skin and cause significant local tissue damage and scarring. Early detection and treatment are crucial for optimal cosmetic outcomes. Risk factors include cumulative sun exposure, fair skin, advanced age, and a history of sunburns. BCC commonly appears on sun-exposed areas like the face, ears, neck, and hands. While generally less aggressive than melanoma, BCC can be disfiguring if not addressed promptly. Various treatment modalities are available, each suited to different locations, sizes, and types of BCC.",
+    "symptoms": [
+      "Pearly or waxy bump on skin",
+      "Flat, scar-like lesion",
+      "Bleeding or oozing sore that doesn't heal",
+      "Brown, black, or tan bump",
+      "Lesion with rolled edges and central indentation",
+      "Recurrent sores in same location"
+    ],
+    "causes": [
+      "Prolonged sun exposure",
+      "UV radiation exposure",
+      "History of sunburns",
+      "Fair skin",
+      "Advanced age",
+      "Immunosuppression",
+      "Genetic predisposition"
+    ],
+    "treatment": [
+      "Excisional surgery",
+      "Mohs micrographic surgery",
+      "Curettage and electrodesiccation",
+      "Cryotherapy (freezing)",
+      "Laser therapy",
+      "Topical imiquimod or 5-fluorouracil",
+      "Photodynamic therapy"
+    ],
+    "prevention": [
+      "Use daily SPF 30+ sunscreen",
+      "Wear protective clothing",
+      "Avoid sun exposure 10am-4pm",
+      "Avoid tanning beds",
+      "Get regular skin checks",
+      "Report any new or changing skin lesions"
+    ],
+    "regimens": [
+      "Post-surgical wound care (7-10 days)",
+      "Quarterly skin surveillance",
+      "Annual full-body skin examination",
+      "Monthly self-examination with mirror",
+      "Strict UV protection regimen",
+      "Regular follow-ups with surgical oncologist"
+    ]
+  },
+  "5. Melanocytic Nevi (NV) - 7970": {
+    "name": "Melanocytic Nevi",
+    "description": "Melanocytic nevi, commonly known as moles, are benign proliferations of melanocytes that appear as brown, black, or flesh-colored spots or bumps on the skin. Most adults have between 10 and 40 nevi scattered across their body. These growths are typically harmless and not contagious. Nevi develop due to a combination of genetic factors and sun exposure, and new moles can continue to appear throughout life, with most developing before age 40. While the vast majority of nevi remain stable and benign, a small percentage can undergo malignant transformation into melanoma. This transformation is more likely in atypical nevi (dysplastic nevi) and those present since childhood. Regular monitoring is essential, particularly for individuals with numerous nevi, a family history of melanoma, or personal history of melanoma. The ABCDE rule helps distinguish concerning nevi from typical nevi. Most nevi do not require treatment unless they are cosmetically objectionable, located in areas prone to irritation, or show signs of change.",
+    "symptoms": [
+      "Round or oval brown spots",
+      "Symmetric appearance",
+      "Uniform color",
+      "Well-defined borders",
+      "Flat or slightly raised",
+      "Size less than 6mm diameter",
+      "Usually painless and non-itchy"
+    ],
+    "causes": [
+      "Genetic predisposition",
+      "Sun exposure",
+      "Age",
+      "Hormonal changes",
+      "Pregnancy may cause darkening"
+    ],
+    "treatment": [
+      "Usually no treatment needed",
+      "Surgical removal for cosmetic reasons",
+      "Excision if changes observed",
+      "Laser removal",
+      "Cryotherapy"
+    ],
+    "prevention": [
+      "Protect skin from sun damage",
+      "Use SPF 30+ sunscreen daily",
+      "Wear protective clothing",
+      "Avoid tanning beds",
+      "Monitor nevi for changes (ABCDE rule)",
+      "Get annual skin checks"
+    ],
+    "regimens": [
+      "Monthly ABCDE self-examination",
+      "Annual dermatology examination",
+      "Photograph moles for comparison",
+      "Maintain sun protection protocols",
+      "Track any changes in lesions",
+      "Immediate consultation if changes noted"
+    ]
+  },
+  "6. Benign Keratosis-like Lesions (BKL) 2624": {
+    "name": "Benign Keratosis-like Lesions",
+    "description": "Benign keratosis-like lesions (BKL) encompass a group of common, non-cancerous skin growths that increase in frequency with age. These lesions typically appear as brown, black, or tan spots with a waxy, warty, or scaly surface. BKL includes seborrheic keratosis, the most common type, which affects up to 100% of elderly individuals. These growths are completely harmless and do not become cancerous. BKL develop due to age-related accumulation of skin cells and sun exposure. They can appear anywhere on the body but are most common on the trunk, face, and extremities. While benign, BKL may be removed for cosmetic reasons or if they become irritated by clothing or shaving. The main clinical concern is distinguishing BKL from melanoma or other malignant lesions, which dermatologists can typically accomplish through clinical examination or dermoscopy. BKL do not require treatment unless they are cosmetically objectionable, irritated, or diagnostic uncertainty exists.",
+    "symptoms": [
+      "Waxy or scaly appearance",
+      "Brown, black, or tan color",
+      "Slightly raised or flat",
+      "Well-defined borders",
+      "May appear warty or pebbly",
+      "Usually asymptomatic",
+      "Size varies"
+    ],
+    "causes": [
+      "Age-related (seborrheic keratosis)",
+      "Sun exposure",
+      "Genetic predisposition",
+      "Hormonal factors"
+    ],
+    "treatment": [
+      "No treatment if asymptomatic",
+      "Cryotherapy (freezing)",
+      "Curettage",
+      "Electrocautery",
+      "Laser removal",
+      "Surgical excision"
+    ],
+    "prevention": [
+      "Protect skin from excessive sun",
+      "Use SPF 30+ sunscreen",
+      "Wear protective clothing",
+      "Regular skin self-examination",
+      "Professional skin checks"
+    ],
+    "regimens": [
+      "No active treatment if asymptomatic",
+      "Annual dermatology examination",
+      "Monthly self-monitoring",
+      "Cryotherapy or removal if irritated",
+      "Cosmetic removal if desired",
+      "Watch for any changes or irritation"
+    ]
+  },
+  "7. Psoriasis pictures Lichen Planus and related diseases - 2k": {
+    "name": "Psoriasis and Lichen Planus",
+    "description": "Psoriasis is a chronic autoimmune-mediated inflammatory skin condition affecting 1-3% of the global population. It's characterized by rapid skin cell turnover (up to 10 times faster than normal), resulting in thick, scaly, erythematous (red) plaques. Psoriasis typically appears on the elbows, knees, scalp, and lower back, though it can affect any body area. The disease ranges from mild to severe, with some patients experiencing significant quality of life impact. Lichen planus is a distinct chronic inflammatory condition that can affect skin, mucous membranes, and other tissues. It presents as flat-topped purple bumps with a characteristic lacy white pattern. Both conditions are T-cell mediated autoimmune disorders triggered by genetic predisposition and environmental factors including stress, infections, and medications. Psoriasis and lichen planus are not contagious but often require long-term management. While incurable, both conditions can achieve excellent control with appropriate treatment, allowing most patients to maintain normal quality of life.",
+    "symptoms": [
+      "Red, inflamed patches of skin",
+      "White or silvery scales",
+      "Thickened or ridged nails",
+      "Purple, flat-topped bumps (lichen planus)",
+      "Joint pain and swelling",
+      "Mild to severe itching",
+      "Burning or soreness"
+    ],
+    "causes": [
+      "Genetic predisposition",
+      "Immune system dysfunction",
+      "Stress",
+      "Infections",
+      "Certain medications",
+      "Skin trauma",
+      "Unknown causes for lichen planus"
+    ],
+    "treatment": [
+      "Topical corticosteroids",
+      "Topical retinoids",
+      "Calcineurin inhibitors",
+      "Systemic medications (methotrexate)",
+      "Biologic drugs (TNF inhibitors)",
+      "Phototherapy (UVB or PUVA)",
+      "Lifestyle modifications"
+    ],
+    "prevention": [
+      "Stress management",
+      "Avoid skin trauma",
+      "Moisturize regularly",
+      "Avoid harsh soaps",
+      "Maintain healthy lifestyle",
+      "Avoid known triggers"
+    ],
+    "regimens": [
+      "Twice daily topical corticosteroid application",
+      "Daily stress management exercises",
+      "Regular moisturizing before bed",
+      "Avoid scratch triggers",
+      "Monthly dermatology check-ins",
+      "Use nail care to prevent skin trauma"
+    ]
+  },
+  "8. Seborrheic Keratoses and other Benign Tumors - 1.8k": {
+    "name": "Seborrheic Keratosis",
+    "description": "Seborrheic keratosis is the most common benign skin growth in older adults, with prevalence exceeding 80% in the elderly population. These lesions are characterized by a waxy, scaly, or warty appearance and typically present as brown, black, or tan raised bumps on the skin surface. Seborrheic keratosis occurs due to age-related hyperplasia (thickening) of the outer skin layer and increased sun exposure over lifetime. They are completely harmless, non-contagious, and do not transform into cancer. These growths can appear anywhere on the body but are most common on the face, chest, and back. While generally asymptomatic, seborrheic keratosis may become irritated if located in areas subject to friction from clothing or shaving, causing itching or bleeding. The primary clinical concern is distinguishing seborrheic keratosis from melanoma or other malignant lesions, though the appearance is usually distinctive. Treatment is optional and typically pursued for cosmetic reasons or if the lesion becomes symptomatic.",
+    "symptoms": [
+      "Waxy or scaly surface",
+      "Brown, black, or tan color",
+      "Well-defined borders",
+      "Slightly raised appearance",
+      "Pebbly texture",
+      "Usually asymptomatic",
+      "May itch or become irritated if rubbed"
+    ],
+    "causes": [
+      "Age (common after age 50)",
+      "Genetics",
+      "Sun exposure",
+      "Skin type",
+      "Unknown exact mechanism"
+    ],
+    "treatment": [
+      "No treatment if asymptomatic",
+      "Cryotherapy (freezing)",
+      "Curettage and electrodesiccation",
+      "Laser therapy",
+      "Surgical excision",
+      "Chemical peels"
+    ],
+    "prevention": [
+      "Sun protection with SPF 30+",
+      "Protective clothing",
+      "Avoid excessive sun exposure",
+      "Regular skin checks",
+      "Monitor for changes"
+    ],
+    "regimens": [
+      "Quarterly dermatology visits",
+      "Cryotherapy as needed for irritation",
+      "Cosmetic removal if desired",
+      "Monitor for irritation or growth",
+      "Annual skin examination",
+      "No active treatment if asymptomatic"
+    ]
+  },
+  "9. Tinea Ringworm Candidiasis and other Fungal Infections - 1.7k": {
+    "name": "Fungal Infections (Tinea, Ringworm, Candidiasis)",
+    "description": "Fungal skin infections represent a significant proportion of dermatological complaints worldwide and are caused by dermatophytes (filamentous fungi) or yeasts. Common types include tinea pedis (athlete's foot) affecting the feet, tinea corporis (ringworm) on the body, tinea cruris (jock itch) in the groin, tinea capitis (scalp ringworm), and candidiasis caused by Candida species. These infections thrive in warm, moist environments such as skin folds, between toes, and in areas affected by excessive sweating. Fungal infections are contagious and spread through direct contact with infected individuals, contaminated surfaces, or shared personal items like towels and footwear. Risk factors include poor hygiene, immunosuppression, diabetes, obesity, antibiotic use (for candidiasis), and prolonged moisture exposure. Symptoms range from mild itching and redness to severe inflammation, blistering, and secondary bacterial infections. Early diagnosis and treatment are important to prevent spread and complications. Fungal infections respond well to topical or systemic antifungal therapy, though reinfection is possible if preventive measures are not maintained.",
+    "symptoms": [
+      "Circular rash with raised red edges",
+      "Itching or burning sensation",
+      "Scaling or peeling skin",
+      "Red, inflamed patches",
+      "Blistering or cracking",
+      "Discoloration of skin",
+      "Unpleasant odor in severe cases"
+    ],
+    "causes": [
+      "Dermatophyte fungi infection",
+      "Yeast infection (Candida)",
+      "Warm, moist environments",
+      "Poor hygiene",
+      "Direct contact with infected person",
+      "Immunosuppression",
+      "Antibiotic use"
+    ],
+    "treatment": [
+      "Topical antifungal creams or powders",
+      "Oral antifungal medications",
+      "Azoles (fluconazole, itraconazole)",
+      "Allylamines (terbinafine)",
+      "Keep area clean and dry",
+      "Avoid scratching"
+    ],
+    "prevention": [
+      "Keep skin clean and dry",
+      "Avoid warm, moist environments",
+      "Wear breathable clothing",
+      "Use antifungal powder in high-risk areas",
+      "Don't share towels or personal items",
+      "Avoid direct contact with infected persons",
+      "Wear shoes in public areas"
+    ],
+    "regimens": [
+      "Daily antifungal cream application (2-4 weeks)",
+      "Keep affected area clean and dry",
+      "Wear breathable, loose clothing",
+      "Use talc-free antifungal powder",
+      "Avoid scratching and spreading infection",
+      "Follow-up within 2-4 weeks of treatment"
+    ]
+  },
+  "10. Warts Molluscum and other Viral Infections - 2103": {
+    "name": "Warts, Molluscum, and Viral Infections",
+    "description": "Viral skin infections caused by human papillomavirus (HPV) and molluscipoxvirus are extremely common worldwide, affecting people of all ages. Common warts are caused by non-genital HPV types and typically appear on hands, fingers, and feet as rough, raised bumps. Genital warts result from sexually transmitted HPV types and can increase the risk of certain cancers if left untreated. Molluscum contagiosum, caused by molluscipoxvirus, presents as small, firm, flesh-colored bumps with a central dimple and is highly contagious, particularly in children and immunocompromised individuals. These infections spread through direct skin-to-skin contact, contact with contaminated surfaces, or sexual contact (genital warts and molluscum). Risk factors include compromised immune function, skin trauma, and previous infection. While most viral skin infections eventually resolve spontaneously as the immune system develops antibodies, this process can take months to years. During this time, lesions can multiply and spread to other body areas or other individuals. Various treatment options are available to accelerate clearance and reduce transmission risk. HPV vaccination is an effective preventive measure against certain high-risk HPV types.",
+    "symptoms": [
+      "Raised, bumpy growths",
+      "Flesh-colored, brown, or reddish bumps",
+      "Rough texture",
+      "Central dimple (molluscum contagiosum)",
+      "Itching or tenderness",
+      "Clusters of lesions",
+      "May have dark specks in center (warts)"
+    ],
+    "causes": [
+      "Human papillomavirus (HPV)",
+      "Molluscipoxvirus",
+      "Direct skin-to-skin contact",
+      "Contaminated surfaces",
+      "Sexual contact (genital warts)",
+      "Weak immune system"
+    ],
+    "treatment": [
+      "Topical salicylic acid",
+      "Cryotherapy (liquid nitrogen freezing)",
+      "Laser therapy",
+      "Electrocautery",
+      "Imiquimod cream",
+      "Surgical removal",
+      "HPV vaccine for prevention"
+    ],
+    "prevention": [
+      "Avoid direct contact with warts",
+      "Keep hands clean",
+      "Don't share personal items",
+      "HPV vaccination",
+      "Wear shoes in public areas",
+      "Avoid picking at skin lesions",
+      "Safe sexual practices"
+    ],
+    "regimens": [
+      "Topical treatment application as prescribed (2-8 weeks)",
+      "Avoid touching or picking at lesions",
+      "Keep treated areas clean and dry",
+      "Monitor for new lesions",
+      "Follow-up treatment if needed",
+      "Maintain hygiene to prevent spread"
+    ]
+  }
+}

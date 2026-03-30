@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Derm CDSM - Advanced Skin Disease Detection</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div class="bg-animation">
+        <div class="bg-gradient"></div>
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
+            <div class="shape shape-4"></div>
+            <div class="shape shape-5"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon">
+                    <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <span class="logo-text">Derm <span class="logo-pro">CDSM</span></span>
+            </div>
+            <div class="nav-links">
+                <a href="#upload" class="nav-link active">Analyze</a>
+                <a href="#features" class="nav-link">Features</a>
+                <a href="#conditions" class="nav-link">About</a>
+            </div>
+            <div class="nav-status">
+                <div class="status-indicator" id="statusIndicator">
+                    <span class="status-dot"></span>
+                    <span class="status-text">System Ready</span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-container">
+        <!-- Hero Section -->
+        <section class="hero-section">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-icon">🔬</span>
+                    <span>AI-Powered Dermatology</span>
+                </div>
+                <h1 class="hero-title">
+                    Advanced <span class="gradient-text">Skin Disease</span><br>
+                    Detection System
+                </h1>
+                <p class="hero-subtitle">
+                    Harness the power of deep learning and computer vision to analyze skin conditions 
+                    with clinical-grade accuracy. Our AI model trained on 40,000+ dermatological images 
+                    provides instant, reliable analysis.
+                </p>
+                <!-- <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">10</span>
+                        <span class="stat-label">Disease Classes</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">40K+</span>
+                        <span class="stat-label">Training Images</span>
+                    </div>
+                    <div class="stat-divider"></div>
+                    <div class="stat-item">
+                        <span class="stat-number">ResNet50</span>
+                        <span class="stat-label">Architecture</span>
+                    </div> -->
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-card">
+                    <div class="card-glow"></div>
+                    <div class="visual-content">
+                        <div class="dna-helix">
+                            <svg viewBox="0 0 100 200" class="dna-svg">
+                                <path class="dna-strand-1" d="M20,10 Q50,50 80,50 Q50,50 20,90 Q50,130 80,130 Q50,130 20,170 Q50,210 80,210" />
+                                <path class="dna-strand-2" d="M80,10 Q50,50 20,50 Q50,50 80,90 Q50,130 20,130 Q50,130 80,170 Q50,210 20,210" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Upload Section -->
+        <section class="upload-section" id="upload">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-icon">📸</span>
+                    Analyze Your Skin
+                </h2>
+                <p class="section-description">
+                    Upload a clear image of the affected skin area for instant AI-powered analysis
+                </p>
+            </div>
+
+            <div class="upload-container">
+                <div class="upload-box" id="uploadBox">
+                    <div class="upload-visual">
+                        <div class="upload-icon-wrapper">
+                            <div class="upload-icon-bg"></div>
+                            <div class="upload-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M21 15V19C21 19.5304 20.7893 20.0391 20.4142 20.4142C20.0391 20.7893 19.5304 21 19 21H5C4.46957 21 3.96086 20.7893 3.58579 20.4142C3.21071 20.0391 3 19.5304 3 19V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <polyline points="17,8 12,3 7,8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <line x1="12" y1="3" x2="12" y2="15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="upload-text">
+                        <h3>Drop your image here</h3>
+                        <p>or click to browse files</p>
+                    </div>
+                    <div class="upload-formats">
+                        <span class="format-badge">PNG</span>
+                        <span class="format-badge">JPG</span>
+                        <span class="format-badge">JPEG</span>
+                    </div>
+                    <input type="file" id="fileInput" accept=".png,.jpg,.jpeg" hidden>
+                    <button class="btn-upload" onclick="document.getElementById('fileInput').click()">
+                        <span class="btn-icon">
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M21 15V19C21 20.1046 20.1046 21 19 21H5C3.89543 21 3 20.1046 3 19V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M17 8L12 3L7 8" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                <path d="M12 3V15" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </span>
+                        <span>Select Image</span>
+                    </button>
+                </div>
+
+                <div class="preview-section" id="previewSection" style="display: none;">
+                    <div class="preview-card">
+                        <div class="preview-image-wrapper">
+                            <img id="imagePreview" alt="Preview">
+                            <div class="preview-overlay">
+                                <span class="preview-label">Selected Image</span>
+                            </div>
+                        </div>
+                        <div class="preview-info">
+                            <div class="file-info" id="fileInfo">
+                                <span class="file-icon">📄</span>
+                                <span class="file-name" id="fileName">image.jpg</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="preview-actions">
+                        <button class="btn-secondary" onclick="resetUpload()">
+                            <span class="btn-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M1 4V10H7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                    <path d="M3.51 15C4.15839 16.8404 5.38734 18.4202 7.01166 19.5014C8.63598 20.5826 10.5677 21.1066 12.5157 20.9945C14.4637 20.8823 16.3226 20.1402 17.8121 18.8798C19.3017 17.6193 20.3413 15.9087 20.7742 14.0064C21.2072 12.1041 21.0101 10.1139 20.2126 8.33116C19.4152 6.54843 18.0605 5.0667 16.3528 4.11525C14.6451 3.16381 12.6769 2.79359 10.7447 3.05967C8.81245 3.32575 7.02091 4.21405 5.64 5.59998L1 10" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                                </svg>
+                            </span>
+                            <span>Change Image</span>
+                        </button>
+                        <button class="btn-primary btn-analyze" onclick="analyzeImage()">
+                            <span class="btn-icon">
+                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2"/>
+                                    <path d="M21 21L16.65 16.65" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                                </svg>
+                            </span>
+                            <span>Analyze Now</span>
+                            <span class="btn-shine"></span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Loader -->
+        <div class="loader-section" id="loader" style="display: none;">
+            <div class="loader-content">
+                <div class="loader-animation">
+                    <div class="pulse-ring"></div>
+                    <div class="pulse-ring"></div>
+                    <div class="pulse-ring"></div>
+                    <div class="loader-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                </div>
+                <h3 class="loader-title">Analyzing Image</h3>
+                <p class="loader-text">Our AI is examining the skin condition...</p>
+                <div class="loader-progress">
+                    <div class="progress-bar"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Results Section -->
+        <section class="results-section" id="resultsSection" style="display: none;">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-icon">📊</span>
+                    Analysis Results
+                </h2>
+                <p class="section-description">
+                    AI-powered predictions based on deep learning analysis
+                </p>
+            </div>
+
+            <div id="resultsContainer"></div>
+
+            <div class="disclaimer-card">
+                <div class="disclaimer-icon">⚠️</div>
+                <div class="disclaimer-content">
+                    <h4>Medical Disclaimer</h4>
+                    <p>This AI tool provides preliminary analysis only. Results should not replace professional medical diagnosis. Please consult a qualified dermatologist for accurate diagnosis, treatment plans, and medical advice.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features-section" id="features">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-icon">✨</span>
+                    Key Features
+                </h2>
+                <p class="section-description">
+                    Cutting-edge capabilities powered by state-of-the-art deep learning
+                </p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">🎯</div>
+                    </div>
+                    <h3>High Accuracy</h3>
+                    <p>Trained on 40,000+ dermatological images with advanced data augmentation for robust predictions</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">⚡</div>
+                    </div>
+                    <h3>Instant Analysis</h3>
+                    <p>Get results in seconds with our optimized inference pipeline and GPU-accelerated processing</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">🔬</div>
+                    </div>
+                    <h3>10 Disease Classes</h3>
+                    <p>Covers major skin conditions including Eczema, Melanoma, Psoriasis, BCC, and more</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">📋</div>
+                    </div>
+                    <h3>Detailed Reports</h3>
+                    <p>Comprehensive information including symptoms, causes, treatments, and prevention tips</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">🛡️</div>
+                    </div>
+                    <h3>Privacy First</h3>
+                    <p>Images are processed locally and deleted immediately after analysis - no data storage</p>
+                </div>
+                <div class="feature-card">
+                    <div class="feature-icon-wrapper">
+                        <div class="feature-icon">📱</div>
+                    </div>
+                    <h3>Responsive Design</h3>
+                    <p>Works seamlessly on desktop, tablet, and mobile devices for accessibility anywhere</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Disease Classes Section
+        <section class="diseases-section" id="conditions">
+            <div class="section-header">
+                <h2 class="section-title">
+                    <span class="title-icon">🏥</span>
+                    Detectable Conditions
+                </h2>
+                <p class="section-description">
+                    Our model is trained to identify the following skin conditions
+                </p>
+            </div>
+  -->
+            <!-- <div class="diseases-grid">
+                <div class="disease-item">
+                    <span class="disease-number">01</span>
+                    <span class="disease-name">Eczema</span>
+                </div>
+                <div class="disease-item">
+                    <span class="disease-number">02</span>
+                    <span class="disease-name">Melanoma</span>
+                </div>
+                <div class="disease-item">
+                    <span class="disease-number">03</span>
+                    <span class="disease-name">Atopic Dermatitis</span>
+                </div>
+                <div class="disease-item">
+                    <span class="disease-number">04</span>
+                    <span class="disease-name">Basal Cell Carcinoma</span>
+                </div>
+                <div class="disease-item">
+                    <span class="disease-number">05</span>
+                    <span class="disease-name">Melanocytic Nevi</span>
+                </div>
+                <div class="disease-item">
+                    <span class="disease-number">06</span>
+                    <span class="disease-name">Benign Keratosis</span>
+                </div>
+                <div class="disease-item">
+                    <span class="disease-number">07</span>
+                    <span class="disease-name">Psoriasis & Lichen Planus</span>
+                </div>
+                <div class="disease-item">
+                    <span class="disease-number">08</span>
+                    <span class="disease-name">Seborrheic Keratoses</span>
+                </div>
+                <div class="disease-item">
+                    <span class="disease-number">09</span>
+                    <span class="disease-name">Fungal Infections</span>
+                </div>
+                <div class="disease-item">
+                    <span class="disease-number">10</span>
+                    <span class="disease-name">Viral Infections (Warts)</span>
+                </div>
+            </div>
+        </section> -->
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-main">
+                <div class="footer-logo">
+                    <div class="logo-icon">
+                        <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+                    <span>Derm CDSM</span>
+                </div>
+                <p class="footer-tagline">Advanced AI-Powered Skin Disease Detection System</p>
+            <!-- </div>
+            <div class="footer-tech">
+                <span>Powered by</span>
+                <div class="footer-tech-logos">
+                    <span class="tech-tag">TensorFlow</span>
+                    <span class="tech-tag">Keras</span>
+                    <span class="tech-tag">ResNet-50</span>
+                    <span class="tech-tag">Flask</span>
+                    <span class="tech-tag">Python</span>
+                </div>
+            </div> -->
+            <!-- <div class="footer-bottom"> -->
+                <p>© 2026 Derm CDSM. Educational & Research Purpose Only.</p>
+                <!-- <p class="footer-disclaimer">This tool is not a substitute for professional medical advice.</p> -->
+            </div>
+        </div>
+    </footer>
+
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+
+</html>
